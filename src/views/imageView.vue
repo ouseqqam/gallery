@@ -1,11 +1,11 @@
 <template>
     <div>
         <h1>Image details</h1>
-        <div class='galleryItem'>
-            <div class='image'>
+        <div >
+            <div >
                 <img :src='image.urls.small' alt="random photo" />
             </div>
-            <div class='details' >
+            <div  >
                 <p>Name: {{ image.user.name }}</p>
                 <p>Description: {{ image.alt_description }}</p>
             </div>

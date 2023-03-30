@@ -47,4 +47,8 @@
       display: flex;
       justify-content: space-between;
     }
+
+    .image:hover {
+      cursor: pointer;
+    }
 </style>
